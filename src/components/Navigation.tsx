@@ -1,3 +1,4 @@
+import "../stylesheets/Navigation.css"
 function Navigation () {
     return(<nav className="left-menu">
     <ul className="inbox-list">
