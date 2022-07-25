@@ -10,11 +10,13 @@ function MainChallenge() {
       />
       <section className="email-reply">
         <form action="" className="email-form">
-          <input type="email" />
+          <div className="email-receiver"><input type="email" /></div>
 
-          <label htmlFor="">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-          </label>
+          <div className="email-message">
+            <label htmlFor="">
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </label>
+          </div>
           <div className="email-reply-buttons">
             <div className="email-submit-button">
               <input type="submit" />
