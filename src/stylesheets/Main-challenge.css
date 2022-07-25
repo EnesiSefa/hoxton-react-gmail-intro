@@ -26,6 +26,7 @@
     "email-submit-button . email-delete-button" 20px /
     auto 1fr auto; */
     grid-auto-flow: column;
+    justify-content: space-between;
 }
 .email-submit-button {
   grid-area: email-submit-button;

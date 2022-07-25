@@ -10,7 +10,9 @@ function MainChallenge() {
       />
       <section className="email-reply">
         <form action="" className="email-form">
-          <div className="email-receiver"><input type="email" /></div>
+          <div className="email-receiver">
+            <input type="email" />
+          </div>
 
           <div className="email-message">
             <label htmlFor="">
