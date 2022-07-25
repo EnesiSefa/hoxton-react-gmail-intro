@@ -1,0 +1,32 @@
+.email-challenge-div {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+}
+.email-reply {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.email-form {
+  display: grid;
+
+
+  outline: 1px solid black;
+}
+.emails-reply-buttons {
+  display: grid;
+  grid-template:
+    "email-submit-button . email-delete-button" 20px/
+    auto 1fr auto;
+  
+}
+.email-submit-button{
+    grid-area: email-submit-button;
+}
+.email-delete-button{
+    grid-area: email-delete-button;
+}
+
+.material-symbols-outlined {
+}
